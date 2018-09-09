@@ -1,0 +1,3 @@
+[submodule "avr-components"]
+	path = avr-components
+	url = https://github.com/FilipZajdel/avr-components.git
