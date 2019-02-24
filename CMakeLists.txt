@@ -4,7 +4,7 @@ set(target_name serial_logger)
 
 set(CMAKE_C_COMPILER avr-gcc)
 set(CMAKE_C_FLAGS "-std=c11 -g -Os -mmcu=atmega328p -Wcpp")
-set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")	# some shit, without it, it doesn't compile
+set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")	
 
 add_subdirectory("avr-components/system/data_buffers")
 add_subdirectory("avr-components/system/message_decoder")
