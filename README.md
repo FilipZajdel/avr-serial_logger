@@ -21,5 +21,5 @@ make -j8
 avrdude -p m328p -c usbasp -U flash:w:YOUR_FILE.hex
 ```
  
-3. In case of any other ATmega mcu, specify compiler options in main 
+In case of any other ATmega mcu, specify compiler options in main 
    CMakeLists.txt
