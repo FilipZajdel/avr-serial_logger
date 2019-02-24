@@ -1,6 +1,6 @@
 # avr-serial_logger
 
-To clone repo with submodules: git clone --recursive (/avr_serial_logger)
+To clone repo with submodules: git clone --recursive [https://github.com/FilipZajdel/avr-serial_logger](https://github.com/FilipZajdel/avr-serial_logger)
 
 # Building the project
 
