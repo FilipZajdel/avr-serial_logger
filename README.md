@@ -8,17 +8,17 @@ To build the project Cmake is requred.
 
 In avr-serial_logger directory: 
 ```
-	mkdir build
-	cd build
-	cmake ..
-	make -j8
+mkdir build
+cd build
+cmake ..
+make -j8
 ```
 
 # Flashing 
 
 .hex file can be flashed using avrdude
 ```
-	avrdude -p m328p -c usbasp -U flash:w:YOUR_FILE.hex
+avrdude -p m328p -c usbasp -U flash:w:YOUR_FILE.hex
 ```
  
 3. In case of any other ATmega mcu, specify compiler options in main 
