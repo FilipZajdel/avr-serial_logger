@@ -1,17 +1,25 @@
 # avr-serial_logger
 
-To clone repo with submodules: git clone --recurse [REPO URL]
+To clone repo with submodules: git clone --recursive (/avr_serial_logger)
 
-Following instructions show how build the project:
+# Building the project
 
-! To build the project Cmake is requred.
+To build the project Cmake is requred.
 
-1. In avr-serial_logger directory: 
+In avr-serial_logger directory: 
+```
 	mkdir build
 	cd build
 	cmake ..
 	make -j8
+```
 
-2. The result is .hex file which can be used to flash ATmega 328p. 
+# Flashing 
+
+.hex file can be flashed using avrdude
+```
+	avrdude -p m328p -c usbasp -U flash:w:YOUR_FILE.hex
+```
+ 
 3. In case of any other ATmega mcu, specify compiler options in main 
    CMakeLists.txt
