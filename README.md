@@ -1,4 +1,14 @@
-## avr-serial_logger
+# avr-serial_logger
+
+[Description](#description)
+
+[Building the project](#building-the-project)
+
+[Flashing](#flashing)
+
+[interfacing-with-pc](#interfacing-with-pc)
+
+## Description
 
 Project of device that can sense temperature and voltage on its ADC. Device sends data through serial port (8 bits, no parity, 1 stop bit, 9600 baud) when requested by another device. 
 
@@ -7,13 +17,6 @@ Possible commands that can be sent to device are specified in [message decoder](
 Following commands are handled now:
 * "temperature" - gets reading from ds18b20
 * "adc" - gets reading from ADC
-
-
-[Building the project](#building-the-project)
-
-[Flashing](#flashing)
-
-[interfacing-with-pc](#interfacing-with-pc)
 
 ## Building the project
 
