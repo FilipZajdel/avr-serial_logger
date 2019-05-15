@@ -6,7 +6,7 @@
 
 [Flashing](#flashing)
 
-[interfacing-with-pc](#interfacing-with-pc)
+[Interfacing-with-pc](#interfacing-with-pc)
 
 ## Description
 
